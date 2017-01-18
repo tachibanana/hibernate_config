@@ -12,25 +12,25 @@
     <session-factory>
 
     	<!-- JDBC Database connection settings -->
-   		<property name="connection.driver_class"></property>
-   		<property name="connection.url"></property>
-   		<property name="connection.username"></property>
-   		<property name="connection.password"></property>
+   	<property name="connection.driver_class"></property>
+   	<property name="connection.url"></property>
+   	<property name="connection.username"></property>
+   	<property name="connection.password"></property>
    		
-   		<!-- JDBC connection pool settings ... using built-in test tool -->
-   		<property name="connection.pool_size"></property>
+   	<!-- JDBC connection pool settings ... using built-in test tool -->
+   	<property name="connection.pool_size"></property>
    		
-   		<!-- Select our SQL dialect -->
-   		<property name="dialect"></property>
+   	<!-- Select our SQL dialect -->
+   	<property name="dialect"></property>
    		
-   		<!-- Echo the SQL to stdout -->
-   		<property name="show_sql"></property>
+   	<!-- Echo the SQL to stdout -->
+   	<property name="show_sql"></property>
    		
-   		<!-- Set the current session context -->
-   		<property name="current_session_context_classs">thread</property>
+   	<!-- Set the current session context -->
+   	<property name="current_session_context_classs">thread</property>
    		
-   		<!-- Drop and re-create the database schema on startup -->
-   		<property name="hbm2ddl.auto"></property>
+   	<!-- Drop and re-create the database schema on startup -->
+   	<property name="hbm2ddl.auto"></property>
    		
    		
     </session-factory>
