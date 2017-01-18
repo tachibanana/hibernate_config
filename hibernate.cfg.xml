@@ -10,7 +10,7 @@
 
 <hibernate-configuration>
     <session-factory>
-    	
+
     	<!-- JDBC Database connection settings -->
    		<property name="connection.driver_class"></property>
    		<property name="connection.url"></property>
