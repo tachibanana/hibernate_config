@@ -12,27 +12,25 @@
     <session-factory>
     	
     	<!-- JDBC Database connection settings -->
-   		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-   		<property name="connection.url">jdbc:mysql://localhost:3306/dbfacebookapp?useSSL=false</property>
-   		<property name="connection.username">root</property>
+   		<property name="connection.driver_class"></property>
+   		<property name="connection.url"></property>
+   		<property name="connection.username"></property>
    		<property name="connection.password"></property>
    		
    		<!-- JDBC connection pool settings ... using built-in test tool -->
-   		<property name="connection.pool_size">3</property>
+   		<property name="connection.pool_size"></property>
    		
    		<!-- Select our SQL dialect -->
-   		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+   		<property name="dialect"></property>
    		
    		<!-- Echo the SQL to stdout -->
-   		<property name="show_sql">true</property>
+   		<property name="show_sql"></property>
    		
    		<!-- Set the current session context -->
    		<property name="current_session_context_classs">thread</property>
    		
    		<!-- Drop and re-create the database schema on startup -->
-   		<property name="hbm2ddl.auto">update</property>
-   		
-   		<mapping class="com.app.facebook.model.User" />
+   		<property name="hbm2ddl.auto"></property>
    		
    		
     </session-factory>
